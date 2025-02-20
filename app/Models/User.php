@@ -15,7 +15,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'role', // 'admin' ou 'student'
+        'role'
     ];
 
     protected $hidden = [
@@ -28,7 +28,6 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 
-    // Relations
     public function clubs()
     {
         return $this->belongsToMany(Club::class, 'club_user');
@@ -38,4 +37,13 @@ class User extends Authenticatable
     {
         return $this->belongsToMany(Event::class, 'event_user');
     }
+    public function isAdmin()
+{
+    return $this->role === 'admin';
+}
+
+public function isStudent()
+{
+    return $this->role === 'student';
+}
 }
