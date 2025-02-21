@@ -35,7 +35,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+   
     <div class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white">
         <div class="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
             <div class="text-center">
@@ -57,7 +57,6 @@
         </div>
     </div>
 
-    <!-- Featured Clubs Section -->
     <div id="clubs" class="py-24 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
@@ -70,7 +69,6 @@
             </div>
 
             <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                <!-- Club Card -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                     <div class="p-6">
                         <div class="text-3xl text-indigo-600 mb-4">
@@ -82,7 +80,6 @@
                     </div>
                 </div>
 
-                <!-- Club Card -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                     <div class="p-6">
                         <div class="text-3xl text-indigo-600 mb-4">
@@ -94,7 +91,6 @@
                     </div>
                 </div>
 
-                <!-- Club Card -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                     <div class="p-6">
                         <div class="text-3xl text-indigo-600 mb-4">
@@ -109,7 +105,6 @@
         </div>
     </div>
 
-    <!-- Events Section -->
     <div class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
@@ -122,9 +117,7 @@
             </div>
 
             <div class="mt-16">
-                <!-- Timeline -->
                 <div class="space-y-8">
-                    <!-- Event -->
                     <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
                         <div class="flex items-center justify-between">
                             <div>
@@ -138,7 +131,6 @@
                         </div>
                     </div>
 
-                    <!-- Event -->
                     <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
                         <div class="flex items-center justify-between">
                             <div>
@@ -156,7 +148,6 @@
         </div>
     </div>
 
-    <!-- Footer -->
     <footer class="bg-gray-900 text-white">
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
